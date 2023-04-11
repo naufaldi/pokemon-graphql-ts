@@ -1,5 +1,6 @@
 import { Button, Container } from '@chakra-ui/react'
 import Layout from 'components/layout'
+import ListPokemon from 'components/pokemon/ListPokemon'
 import { globalStore } from 'store/global'
 
 const Index = () => {
@@ -9,9 +10,7 @@ const Index = () => {
     <Layout>
       <Container maxW="1280px">
         <Button onClick={() => setOnOff(!onOff)}>Set On Off</Button>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique iure aut ut quam alias
-        temporibus delectus veniam voluptate, non accusamus minus nobis reiciendis dicta maxime
-        voluptas vel, quos nisi quidem?
+        <ListPokemon />
       </Container>
     </Layout>
   )
