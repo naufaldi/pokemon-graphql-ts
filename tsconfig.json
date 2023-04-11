@@ -40,6 +40,9 @@
       "types/*":[
         "src/types/*"
       ],
+      "lottie/*":[
+        "src/lottie/*"
+      ],
       "~/*": ["./public/*"]
     },
     "incremental": true

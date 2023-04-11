@@ -18,9 +18,11 @@
     "@emotion/styled": "^11.9.0",
     "framer-motion": "^6.3.0",
     "graphql": "^16.6.0",
+    "lottie-react": "^2.4.0",
     "next": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-error-boundary": "^4.0.3",
     "zustand": "^4.3.6"
   },
   "devDependencies": {
