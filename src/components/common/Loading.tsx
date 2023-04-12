@@ -5,7 +5,7 @@ import React from 'react'
 const Loading = () => {
   return (
     <>
-      <Lottie animationData={LoadingAnimation} loop={true} />
+      <Lottie animationData={LoadingAnimation} loop={true} height={500} width={500} />
     </>
   )
 }
